@@ -14,7 +14,7 @@ EXPOSE 8080
 ARG JAR_FILE=target/websocket-demo-0.0.1-SNAPSHOT.jar
 
 # Add the application's jar to the container
-ADD ${JAR_FILE} websocket-demo.jar
+ADD ${JAR_FILE} websocket-chat-message.jar
 
 # Run the jar file 
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/websocket-chat-message.jar"]

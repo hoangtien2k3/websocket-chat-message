@@ -7,13 +7,6 @@ import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.stereotype.Controller;
 
-/**
- * @author: hoangtien2k3
- * @create: 16/03/2024 - 11:42
- * @file: ChatController.java
- * @update: 16/03/2024
- * @description:
- */
 @Controller
 public class ChatController {
 
